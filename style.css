@@ -1,0 +1,54 @@
+/*Establishing a default frame*/
+body {
+    margin: 3%;
+    padding: 0;
+    background: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Header part : logo & navbar*/
+header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.navbar li {
+    float: right;
+    margin-right: 40px;
+}
+
+.anchor1 {
+    color: #0065FC;
+}
+
+.navbar a {
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.register {
+    text-decoration: none;
+    color: #0065FC;
+}
+
+
+
+
+
+
+
+
+/*Breakin points concerns :
+- <768px 
+- 768 - 991px
+- 992 - 1199px*/
