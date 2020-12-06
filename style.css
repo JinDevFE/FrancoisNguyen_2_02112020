@@ -309,12 +309,12 @@ i.fas.fa-child::before {
 	padding: 5px;
 	font-size: 1rem;
 	width: 90vw;
-	height: 130px;
+	height: 150px;
 }
 
 .popularCard {
 	width: 35vw;
-	height: 130px;
+	height: 150px;
 }
 
 .popularImg {
@@ -325,8 +325,14 @@ i.fas.fa-child::before {
 }
 
 .popularContent {
+	display: flex;
+	flex-direction: column;
 	width: 55vw;
 	padding-left: 10px;
+}
+
+.ranking {
+	margin-top: auto;
 }
 
 .popularContent h3 {
@@ -376,6 +382,8 @@ i.fas.fa-child::before {
 }
 
 .accommodationsContent {
+	display: flex;
+	flex-direction: column;
 	font-size: 0.9rem;
 	height: 10vh;
 	padding-left: 10px;
@@ -489,12 +497,6 @@ i.fas.fa-child::before {
 	}
 }
 
-@media only screen and (max-width: 320px) {
-	.popularContent i {
-		margin-top: 22px; 
-	}
-}
-
 @media only screen and (min-width: 601px) and (max-width: 1023px) {
 	.afterHeaderNav {
 		padding-left: 2.5vw;
@@ -527,19 +529,19 @@ i.fas.fa-child::before {
 	}
 
 	.accommodationsArticle {
-		width: 40vw;
+		width: 41.5vw;
 	}
 
 	.accommodationsCard {
-		width: 40vw;
+		width: 41.5vw;
 	}
 
 	.accommodationsImg {
-		width: 40vw;
+		width: 41.5vw;
 	}
 	
 	.accommodationsContent {
-		width: 40vw;
+		width: 41.5vw;
 	}
 
 	.activitiesContainer {
