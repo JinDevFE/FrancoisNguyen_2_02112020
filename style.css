@@ -24,7 +24,7 @@ a {
 }
 
 .fas.fa-star.graystar {
-	color: #D9D9D9;
+	color: #f2f2f2;
 }
 
 /* Header part */
@@ -75,12 +75,11 @@ a {
   
 .headerNavLink a:hover {
 	cursor: pointer;	
-	transition-duration: 0.1s;
 	color: #0065fc;
 }
   
 .headerNavLink1, .headerNavLink2 {
-	border-bottom: 2px solid  #f2f2f2;
+	border-bottom: 3px solid  #f2f2f2;
     padding-bottom: 12px;
 	width: 50%;
 	text-align: center;
@@ -88,7 +87,6 @@ a {
   
 .headerNavLink1:hover, .headerNavLink2:hover {
 	cursor: pointer;
-	transition-duration: 0.1s;
 	border-color: #0065fc;
 }
 
@@ -146,14 +144,14 @@ a {
 	border: 1px solid #f2f2f2;
 	font-size: 1rem;
 	padding: 15px 0;
-	padding-left: 13px;
+	padding-left: 55px;
 	width: 100%;
 	max-width: 100%;
 }
 
 .cityCountry::placeholder {
 	color: #000000;
-	text-align: center;
+	text-align: left;
 }
   
 .btnSearch {
@@ -240,8 +238,8 @@ i.fas.fa-child::before {
   
 .filter:hover {
 	cursor: pointer;
-	transition-duration: 0.1s;
-	font-size: 1rem;
+	background: #f2f2f2;
+	color: #0065FC;
 }
   
 .filter1, .btnF1 {
@@ -304,7 +302,6 @@ i.fas.fa-child::before {
 	border-radius: 20px;
 	box-shadow: 0 0 20px #0303032e;
 	background-color: white;
-	transition-duration: 0.1s;
 	cursor: pointer;
 	margin: 0 auto 15px auto;
 	padding: 5px;
@@ -356,7 +353,6 @@ i.fas.fa-child::before {
 	background-color: white;
 	border-radius: 20px;
 	box-shadow: 0 0 16px #0303032e;
-	transition-duration: 0.1s;
 	cursor: pointer;
 	padding: 5px;
 	margin: 0 auto 15px auto;
@@ -418,7 +414,6 @@ i.fas.fa-child::before {
 .activitiesArticle {
 	border-radius: 20px;
 	box-shadow: 0 0 16px #0303032e;
-	transition-duration: 0.1s;
 	cursor: pointer;
 	margin: 0 auto 15px auto;
 	width: 90vw;
@@ -563,7 +558,7 @@ i.fas.fa-child::before {
 	}
 
 	.headerNavLink1, .headerNavLink2, .headerNavLink3 {
-		border-top: 2px solid  #f2f2f2;
+		border-top: 3px solid  #f2f2f2;
 		border-bottom: none;
 		padding-top: 40px;
 	}
@@ -592,10 +587,6 @@ i.fas.fa-child::before {
 
 	.cityCountry {
 		padding-left: 60px;
-	}
-
-	.cityCountry::placeholder {
-		text-align: left;
 	}
 
 	.accommodations {
