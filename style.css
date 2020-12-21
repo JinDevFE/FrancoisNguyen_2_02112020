@@ -156,6 +156,7 @@ a {
   
 .btnSearch {
 	position: absolute;
+	top: 0px;
 	right: 0px;
 	border-radius: 20px;
 	background: #0065fc;
